@@ -11,6 +11,10 @@ node_js:
 git:
   depth: 3
 
+branches:
+  only:
+  - master
+
 script:
   - yarn build
 
